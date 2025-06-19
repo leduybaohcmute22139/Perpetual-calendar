@@ -1,0 +1,106 @@
+
+ROM used:   5613/8192 (69%)
+            5623/8192 (69%) including unused fragments
+
+            3.0 Average locations per line
+            9.1 Average locations per statement
+
+RAM used:   85/368 (23%) at main() level
+            263/368 (71%) worst case
+
+Stack used: 6 worst case (5 in main + 1 for interrupts)
+Stack size: 8
+
+Lines Stmts  %   Files
+----- ----- ---  -----
+  661   445  72  CT_code_v3.c
+  814     0   0  ..\..\..\..\..\..\..\Program Files (x86)\PICC\Devices\16F887.h
+  107    55   9  i2c_lcd.c
+  279   118  19  ds1307.c
+----- -----
+ 1861   618 Total
+
+Page ROM  %  RAM    Vol Diff  Functions:
+---- --- --- ---    --- ----  ----------
+0     20   0    1             @delay_ms1
+0     18   0    1             @I2C_WRITEU_129
+0     16   0    1             @I2C_READU_129
+0     63   1    3    318  2.8  lcd_write_nibble
+0     37   1    5    246  4.6  lcd_send_byte
+0     62   1    0    282  1.9  I2C_LCD_Init
+0     12   0    0     47  1.5  I2C_LCD_Clear
+0     47   1    4    404  5.6  I2C_LCD_Set_Cursor
+0     12   0    1     52  1.6  I2C_LCD_Write_Data
+ Inline         1     61  1.6  I2C_LCD_Write_Char
+0     39   1    3     57  2.5  I2C_LCD_Write_String
+0     30   1    1    154  3.1  I2C_LCD_BackLight
+0     54   1    2    201  4.3  ds1307_init
+ Inline         4    209  1.8  ds1307_dat_NTN
+ Inline         4    260  2.3  ds1307_dat_GPG
+ Inline         7    331  3.0  ds1307_get_time
+ Inline         9    386  3.1  ds1307_get_date
+2     19   0    3    240  6.0  bin2bcd
+0     19   0    3    155  4.7  bcd2bin
+ Inline         3    158  2.8  doc_byte_1307
+0     26   0    2    115  1.2  ghi_byte_1307
+0     36   1    1             @PUTCHAR_1_
+0     36   1    0    170  3.5  timer1_isr
+0      9   0    0     29  1.2  timer0_isr
+0     12   0    0     59  1.6  timer0_init
+ Inline         0    106  1.3  start_signal
+ Inline         1    265  4.5  check_response
+0     45   1    2    304  6.7  read_data
+0    167   3   12    729  7.3  read_dht22
+0     31   1    2             @ITOF
+0    204   4   16             @DIVFF
+ Inline        31    287  3.2  display_time_lcd
+0     15   0    1             @SPRINTF
+0     23   0    3             @DIV88
+0     63   1    2             @PRINTF_U_856
+0     33   1    4             @SFTOI
+ Inline        16             @ADDFF
+0    119   2   13             @MULFF
+1    470   8   29    351  4.3  display_float
+0     99   2    6             @PRINTF_D_856
+ Inline        34    325  3.8  display_date_lcd
+ Inline         9             @PRINTF_LU_856
+2    833  15   37   1690  5.9  MAIN
+ Inline         5             @FTOSD
+0     81   1   13             @DIV3232
+0    256   5   20             @PRINTF_L32D_796FPFPF
+0     99   2    6             @PRINTF_D0_796
+2    118   2    6    483  7.5  max_day_in_month
+0     39   1    5             @DIV1616
+2    541  10    8   5298 10.1  quet_phim
+2      8   0    0             @goto16099
+2      8   0    0             @goto16192
+1   1578  28  135   6217  8.4  chedo_mode
+0      2   0    0             @const929
+0     80   1    4             @PSTRINGC7_734
+0      1   0    0             @const932
+0     45   1    1    293  3.7  bao_thuc
+ Inline         0             @cinit1
+
+Program metrics:
+    Functions               33
+    Statements              618
+    Comments                316
+    Volume (V)              32425
+    Difficulty (D)          130.0
+    Effort to implement (E) 4216916
+    Time to implement (T)   65 hours, 5 minutes
+    Est Delivered Bugs (B)  9
+    Cyclomatic Complexity   116
+    Maintainability (MI)    37
+
+ Segment     Used  Free
+-----------  ----  ----
+00000-00003     4  0  
+00004-00057    84  0  
+00058-007FF  1950  10  
+00800-00FFF  2048  0  
+01000-017FF  1527  521  
+01800-01FFF     0  2048  
+
+
+

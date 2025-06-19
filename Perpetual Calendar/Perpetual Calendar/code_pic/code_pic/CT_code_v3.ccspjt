@@ -1,0 +1,49 @@
+[PROJECT]
+Target=CT_code_v3.hex
+Processor_Text=PIC16F887
+CCSVersion=5.119
+Compiler=PCM
+[Target Data]
+FileList=CT_code_v3.c
+[CT_code_v3.c]
+Type=4
+[mru-list]
+1=CT_code_v3.c
+[Units]
+Count=1
+1=CT_code_v3 (main)
+
+[defines]
+buildcount=1
+
+[fileformats]
+forcecoff=0
+
+[ProjectLog]
+Days=2
+D1=27-05-2025
+D1_L=8
+D1_L1=[79388]Project Opened.
+D1_L2=[79395]Started Editing.
+D1_L3=[79695]Stopped Editing.
+D1_L4=[80372]Started Editing.
+D1_L5=[80583]Stopped Editing.
+TotalEdit=5
+TotalDebug=0
+D1_E=4
+D1_D=0
+D1_L6=[80583]Project Closed.
+D1_L7=[80619]Project Opened.
+D1_L8=[80631]Started Editing.
+D2=02-06-2025
+D2_L=8
+D2_L1=[55708]Project Opened.
+D2_L2=[55719]Started Editing.
+D2_L3=[56019]Stopped Editing.
+D2_L4=[57940]Started Editing.
+D2_L5=[58268]Stopped Editing.
+D2_L6=[58309]Started Editing.
+D2_L7=[58609]Stopped Editing.
+D2_E=1
+D2_D=0
+D2_L8=[63466]Project Closed.
