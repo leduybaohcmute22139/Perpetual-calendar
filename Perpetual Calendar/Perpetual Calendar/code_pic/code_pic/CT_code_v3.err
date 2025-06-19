@@ -1,6 +1,0 @@
-Compiling C:\Users\Admin\Documents\RTC_pic\9 Dong ho 6 LED 7 doan RTC\C\code_pic\CT_code_v3 on 27-May-25 at 21:47
->>> Warning 204 "C:\Users\Admin\Documents\RTC_pic\9 Dong ho 6 LED 7 doan RTC\C\code_pic\CT_code_v3.c" Line 81(1,1): Condition always FALSE
->>> Warning 204 "C:\Users\Admin\Documents\RTC_pic\9 Dong ho 6 LED 7 doan RTC\C\code_pic\CT_code_v3.c" Line 87(1,1): Condition always FALSE
-      Memory usage:   ROM=69%      RAM=23% - 71%
-      0 Errors,  2 Warnings.
-Build Successful.
